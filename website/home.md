@@ -6,3 +6,5 @@ Dies ist ein *Test*.
 * Bullet2
 
 **Letztes Dinge**
+
+Dies ist ein [target](http://lingulist.de) hyper-link.
