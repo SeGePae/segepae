@@ -1,0 +1,41 @@
+address	{address}.
+author	{author_str}
+booktitle	<em>{booktitle}</em>
+maintitle	<em>{maintitle}</em>
+mainsubtitle	<em>{mainsubtitle}</em>
+date	{year}
+editor	{editor_str}
+editor_suffix	{editor_suffix}
+editor_with_suffix	{editor_str} ({editor_suffix})
+eventdate	{eventdate}
+eventtitle	&quot;{eventtitle}&quot;
+howpublished	 {howpublished}
+identifier	{identifier}
+institution	{institution}
+items	{items}
+journal	<em>{journal}</em> 
+note	{note}
+number	.{number}
+organisation	{organisation}
+organization	{organization}
+organization_for_talk	, {organization}
+pages	{pages}.
+publisher	{publisher}: 
+reference	{reference}
+source_language	{source_language}
+source_url	{source_url}
+subtitle	<strong>. {subtitle}</strong>
+target_language	{target_language}
+term	{term}
+thesis_type	{thesis_type}
+report_type	{report_type}
+title	<strong>{title}</strong>
+url	 <a href="{url}">{url}</a>.
+eprint	 <a href="{eprint}">{eprint}</a>.
+usera	 [{usera}]
+userb	 {userb}
+userc	[{userc}].
+venue	{venue}
+volume	{volume}
+year	({year}): 
+booktitle	<strong>{maintitle}{booktitle}</strong>.

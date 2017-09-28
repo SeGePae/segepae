@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+ <html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="user-scalable=no,width=device-width,initial-scale=1">
+    <title>SeGePä</title>
+  <script src="jquery-1.10.2.js" type="text/javascript"></script>
+  <script src="bootstrap.min.js" type="text/javascript"></script>
+  <script src="jquery-ui.js" type="text/javascript"></script>
+  <script src="data.js" type="text/javascript"></script>
+  <link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+  <h1 class="main">Sexuelle Gewalt in pädagogischen Kontexten</h1>
+  <h1 class="smart">SeGePä</h1>
+
+  <div class="dropdown">
+    <div class="menu-icon">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <div class="dropdown-content">
+      <label for="tabreiter-0-0">Startseite</label>
+      <label for="tabreiter-0-1">Hintergrund</label>
+      <label for="tabreiter-0-2">Bibliographie</label>
+      <label for="tabreiter-0-3">Download</label>
+    </div>
+  </div>
+  <h2>Eine Bibliographie</h2>
+    <div id="content" class="tabreiter">
+      <ul>
+	<li class="reiter">
+	  <input type="radio" name="tabreiter-0" checked="checked" id="tabreiter-0-0" />
+	  <label class="main" for="tabreiter-0-0">Startseite</label>
+	  <div>
+	    {sec1}
+	  </div>
+	</li>
+	<li class="reiter">
+	  <input type="radio" name="tabreiter-0" id="tabreiter-0-1" />
+	  <label class="main" for="tabreiter-0-1">Hintergrund</label>
+	  <div>
+	    {sec2}
+	  </div>
+	</li>
+	<li class="reiter">
+	  <input type="radio" name="tabreiter-0" id="tabreiter-0-2" />
+	  <label class="main" for="tabreiter-0-2">Bibliographie</label>
+	  <div>{sec3}
+	  </div>
+	</li>
+	<li class="reiter">
+	  <input type="radio" name="tabreiter-0" id="tabreiter-0-3" />
+	  <label class="main" for="tabreiter-0-3">Download</label>
+	  <div>
+	    {sec4}
+	  </div>
+	</li>
+      </ul>
+    </div>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>

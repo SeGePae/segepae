@@ -1,0 +1,14 @@
+article	{author} {year}{title}{subtitle}{userb}{usera}. {journal}{volume}{number}. {pages}. {note}
+book	{author}{editor} {year}{title}{subtitle}{userb}{usera}. {publisher}{address}
+incollection	{author} {year}{title}{subtitle}{userb}{usera}. In: {editor_with_suffix}: {booktitle}{userc}{volume}{number}. {publisher}{address} {pages}
+inproceedings	{author} {year}{title}{subtitle}{userb}{usera}. In: {booktitle}. {organization} {pages}
+misc	{author} {year}{title}{subtitle}{userb}{usera}. {howpublished}.
+customa	{author} {year}{title}{subtitle}{userb}{usera}. {howpublished} {eventtitle} ({eventdate}, {venue}{organization_for_talk}).
+lecture	{author} {year}{title}{subtitle} {usera}. {institution}: {organization}.
+mvbook	{author} {year}{maintitle}. {mainsubtitle}{userb}{usera}. {publisher}{address}
+thesis	{author} {year}{title}{subtitle} {usera}. {thesis_type}. {institution}: {address}.
+report	{author} {year}{title}{subtitle} {usera}. {report_type}. {institution}: {address}.
+reference	{editor} {year}{title}{subtitle} {usera}. {publisher}{address}
+collection	{editor} {year}{booktitle}{userb}{usera}. {publisher}{address}.
+conceptlist	<table class="reference dataTable"> <tr><th>Identifier</th><td>{identifier}</td></tr> <tr><th>Compiler</th><td>{author}</td></tr> <tr><th>Date</th><td>{date}</td></tr> <tr><th>Items</th><td>{items}</td></tr> <tr><th>Source L.</th><td>{source_language}</td></tr> <tr><th>Target L.</th><td>{target_language}</td></tr> <tr><th>References</th><td>{reference}</td></tr> <tr><th>Note</th><td>{note}</td></tr><tr><th>View</th><td><a href="https://github.com/concepticon/lists/blob/master/conceptlists/{source_url}.tsv" class="evobib">RAW</a> <a href="compare.html?conceptlist={identifier}" class="evobib">BROWSE</a></td></tr> <table>
+online	{author}{editor_with_suffix} {year}{title}{subtitle}{userb}{usera}. {publisher}{address} {url}{eprint}
