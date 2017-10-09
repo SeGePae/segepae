@@ -1,9 +1,3 @@
 ### Einleitung
 
-Im Rahmen des Forschungsnetzwerks „Sexuelle Gewalt gegen Kinder und Jugendliche
-in pädagogischen Kontexten“ wurde in Auftrag gegeben, ein internationales
-Monitoring durchzuführen, um den Forschungsstand im englischsprachigen Raum
-abzubilden. Dieses Monitoring soll dazu dienen, die englischsprachigen und
-deutschsprachigen wissenschaftlichen Diskurse zu diesem Themenkomplex zukünftig
-besser zu verknüpfen, damit weder Arbeit doppelt gemacht wird noch ungeachtet
-des soziokulturellen Kontexts Ergebnisse übertragen werden.
+Zur vertieften Auseinandersetzung mit englischsprachiger Forschung zu den Forschungsschwerpunkten der BMBF-Förderlinie „Sexuelle Gewalt gegen Kinder und Jugendliche in pädagogischen Kontexten“ wird über drei Jahre hinweg ein Monitoring englischsprachiger Fachliteratur durchgeführt. Dieses Monitoring dient in erster Linie den Forscher_innen innerhalb der Förderlinie, einen strukturierten sowie konzentrierten Zugang zu relevanten englischsprachigen Publikationen zu erhalten. Darüber hinaus profitieren weitere Forscher_innen und Studierende von thematischen Anschlussstellen der Literatursammlung.
