@@ -1,31 +1,8 @@
-### Hintergrund
+### Hintergrund: Englischsprachiger Forschungsstand „Sexuelle Gewalt in pädagogischen Kontexten“
 
-Im Rahmen des Forschungsnetzwerks „Sexuelle Gewalt gegen Kinder und Jugendliche
-in pädagogischen Kontexten“ wurde in Auftrag gegeben, ein internationales
-Monitoring durchzuführen, um den Forschungsstand im englischsprachigen Raum
-abzubilden. Dieses Monitoring soll dazu dienen, die englischsprachigen und
-deutschsprachigen wissenschaftlichen Diskurse zu diesem Themenkomplex zukünftig
-besser zu verknüpfen, damit weder Arbeit doppelt gemacht wird noch ungeachtet
-des soziokulturellen Kontexts Ergebnisse übertragen werden.
+Zur vertieften Auseinandersetzung mit englischsprachiger Forschung zu den Forschungsschwerpunkten der BMBF-Förderlinie „Sexuelle Gewalt gegen Kinder und Jugendliche in pädagogischen Kontexten“ wird über drei Jahre hinweg ein Monitoring englischsprachiger Fachliteratur durchgeführt. Dieses Monitoring dient in erster Linie den Forscher_innen innerhalb der Förderlinie, einen strukturierten sowie konzentrierten Zugang zu relevanten englischsprachigen Publikationen zu erhalten. Darüber hinaus profitieren weitere Forscher_innen und Studierende von thematischen Anschlussstellen der Literatursammlung.
 
-Dafür wird über drei Jahre die Forschungsentwicklung beobachtet: Welche
-Themenschwerpunkte werden gewählt? Gibt es einen deutlichen Zuwachs an
-wissenschaftlichen Artikeln? Welche Aspekte werden (weiter) vernachlässigt?  Zu
-diesem Zweck wird jährlich eine Bibliographie veröffentlicht; diese stellt die
-erste dar und deckt den Zeitraum der Forschung von 2010 bis 2017 ab. In
-regelmäßigen Abständen wird ein Update an dieser Stelle hochgeladen. Darüber
-hinaus gibt es jährliche Schwerpunktartikel, die einen Forschungsaspekt in den
-Blick nehmen und die Erkenntnisse dazu gebündelt darstellen.
+Zentrale Erkenntnisinteressen dieses Monitorings sind Forschungsergebnisse in englischsprachigen Publikationen, welchen Themen besonders viel Aufmerksamkeit geschenkt wird, wie sie präsentiert werden und was für Desiderata vorliegen. Zu diesem Zweck wird jährlich eine Bibliographie veröffentlicht; Mit dieser ersten ist der Publikationszeitraum von 2010 bis 2017 abgedeckt. In jährlichen Abständen findet eine aktualisierte Sammlung statt. Darüber hinaus vertieft ein jährlicher Schwerpunktartikel beachtenswerte Forschungsergebnisse.
 
-Das Monitoring befasst sich mit der Prävalenz von und den Umgang mit Sexualität
-und sexueller Gewalt in pädagogischen Kontexten. Es richtet sich dabei nach den
-Schwerpunkten des Forschungsnetzwerks „Sexuelle Gewalt gegen Kinder und
-Jugendliche in pädagogischen Kontexten“, d.h. es konzentriert sich auf die
-soziale Rahmung, die organisationalen Strukturen, die Qualifizierung von
-Fachkräften, die Prävention sexueller Gewalt sowie Aufdeckungsarbeit. In erster
-Linie geht es um sexuelle Gewalt innerhalb der pädagogischen Einrichtungen. Da
-aber auch Gewalt in familialen und Peerbeziehungen eine Auswirkung auf die
-pädagogische Arbeit haben, wird sie in diesem Monitoring ebenfalls
-berücksichtigt. 
-
+Das Monitoring befasst sich schwerpunktmäßig mit dem Phänomen „sexuelle Gewalt gegen Kinder und Jugendliche in pädagogischen Kontexten“ und integriert flankierende Fragestellungen von Gewalt und Sexualität. Relevante Unterthemen wurden anhand der inhaltlichen Cluster des Forschungsnetzwerks herausgearbeitet, d.h. die Recherche konzentriert sich auf die soziale Rahmung, die organisationalen Strukturen und Kulturen, die Qualifizierung von Fachkräften, Präventionsprogramme für Adressat_innen sowie Disclosure. Da aber auch sexuelle Gewalt in familialen und Peerbeziehungen eine Auswirkung auf die pädagogische Arbeit haben und im Laufe der Literaturrecherche sich als wichtige Forschungs- und Publikationsthemen herausstellten, werden sie in diesem Monitoring ebenfalls berücksichtigt. Während sexuelle Gewalt im Fokus des Monitorings steht, werden andere Formen der Gewalt und des Missbrauchs mitberücksichtigt. Darüber hinaus wird auch der Umgang mit Sexualität als wichtiges Thema, besonders zur Präventionsarbeit, in diesem Forschungsnetzwerk betrachtet, weswegen hierauf ein weiterer Schwerpunkt im Monitoring gelegt wird.
 
