@@ -12,4 +12,4 @@ Wissenschaftliche Hilfskraft am Institut für Pädagogik (Abteilung Sexualpädag
 * Prof.'in Dr. Anja Henningsen (Projektleitung)
 Juniorprofessorin der Sexualpädagogik mit dem Schwerpunkt Gewaltprävention an der Christian-Albrechts-Universität zu Kiel
 
-[Weitere Informationen zur Kieler Juniorprofessur für Sexualpädagogik findet sich hier.] (http://sexualpaedagogik.uni-kiel.de).
+[Weitere Informationen zur Kieler Juniorprofessur für Sexualpädagogik finden Sie hier.] (http://sexualpaedagogik.uni-kiel.de).
