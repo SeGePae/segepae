@@ -87,7 +87,7 @@ function showCategories(key){
     stack += '</ul>';
     level = splits[0].split('.').length;
   }
-  fakeAlert('<div style="text-align:justify">'+text+stack+'</div>');
+  fakeAlert('<div style="text-align:justify"><h4>Kategorien</h4>'+text+stack+'</div>');
 }
 
 function showentries() {
@@ -101,13 +101,23 @@ function showentries() {
   }
   for (var i=0,entry; entry=BIB['ACTIVE'][i]; i++) {
     if (entry != 'ACTIVE') {
-      out += '<p>'+BIB[entry]['html']+' <sup style="color:crimson">['+entry+']</sup> ' + 
-        '<sup style="color:DarkBlue;cursor:pointer;" onclick="showBibTex(\''+entry+'\')">[BIBTEX]</sup> ' +
-        '<sup style="color:DarkGreen;cursor:pointer;" onclick="showCategories(\''+entry+'\')">[CATEGORIES]</sup></p><p>';
+      out += '<li class="paper bibentry">'+BIB[entry]['html'];
+      out += '<p class="resources" style="display:flex;justify-content:space-between;" >';
+      out += '<span class="keywords">';
       for (var k=0,keyword; keyword=BIB[entry]['keyword'][k]; k++) {
-        out += '<span style="border-radius:10%;border:1px dotted darkblue;font-size:60%;padding:2px;">'+keyword+'</span>';
+        if (k < 4) {
+          out += ' <a class="resource keyword">'+keyword+'</a>';
+        }
       }
-      out +='</p>';
+      out +='</span>';
+      out += '<span class="tags">';
+      out += '<a class="bibid resource">ID: '+entry+'</a> ' + 
+        '<a class="bibtex resource" onclick="showBibTex(\''+entry+'\')">BIBTEX</a> ' +
+        '<a class="category resource" onclick="showCategories(\''+entry+'\')">KATEGORIEN</a> ';
+      if ('doi' in BIB[entry]['data']) {
+        out += '<a target="_blank" href="http://dx.doi.org/'+BIB[entry]['data']['doi']+'" class="doi resource">DOI</a>';
+      }
+      out += '</span></li>';
     }
   }
   document.getElementById('bibliography').innerHTML = out;

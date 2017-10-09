@@ -1,0 +1,18 @@
+journal	*{journal}* 
+title	**{title}**
+subtitle	**. {subtitle}**
+year	({year}): 
+publisher	{publisher}: 
+usera	[{usera}]
+userb	{userb}
+pages	{pages}.
+author	{author_str}
+volume	{volume}.
+number	{number}.
+address	{address}.
+booktitle	*{booktitle}*
+editor	{editor_str}
+organisation	{organisation}
+howpublished	{howpublished}
+institution	{institution}
+thesis_type	{thesis_type}

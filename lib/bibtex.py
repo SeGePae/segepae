@@ -12,11 +12,9 @@ __date__="2014-10-04"
 
 import os
 from collections import defaultdict
-from lingpy import *
 from glob import glob
 import bibtexparser as btp
 from bibtexparser.bparser import BibTexParser as BTP
-import lingpy
 from string import Formatter
 
 fmt = Formatter()
@@ -27,18 +25,24 @@ def lingpy_path(*comps):
 
 class BibTex(object):
     
-    def __init__(self, bfile, jfile=''):
+    def __init__(self, bfile, jfile='', tfile=''):
         
         if not bfile:
             bfile = lingpy_path('bibliography.bib')
         if not jfile:
-            jfile = lingpy_path('journals.csv')
+            jfile = lingpy_path('../data/journals.csv')
             
         with open(bfile) as f:
             bd = f.read()
 
         # try open journals file
-        self._journals = dict([(a,b[0]) for a,*b in csv2list(jfile)])
+        self._journals = {}
+        #with open(jfile) as f:
+        #    for line in jfile:
+        #        if line.strip():
+        #            print('line', line)
+        #            vals = line.split('\t')
+        #            self._journals[vals[0]] = vals[1].strip()
 
         # customize stuff
         parser = BTP()
@@ -46,6 +50,7 @@ class BibTex(object):
         bdb = btp.loads(bd, parser=parser)
 
         self._entries = bdb.entries
+        self._tfile = tfile
 
         # make entries to keys
         self._dict = {}
@@ -89,10 +94,11 @@ class BibTex(object):
     def _load_templates(self, path=''):
 
         if not path:
-            path = lingpy_path('templates')
+            path = self._tfile 
         
         self._templates = {}
         paths = glob(os.path.join(path,'*.template'))
+
         for p in paths:
             term = p.split('/')[-1].split('.')[0]
             with open(p) as f:
@@ -114,6 +120,7 @@ class BibTex(object):
                         if line.strip():
                             pre,post = line[:-1].split('\t')
                             self._types[term][pre] = post
+
 
     def format(self, key, template='rst'):
 

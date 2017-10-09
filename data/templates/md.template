@@ -1,0 +1,9 @@
+article	{author} {year}{title}{subtitle}{userb}{usera}. {journal}{volume}{number} {pages}
+book	{author} {year}{title}{subtitle}{userb}{usera}. {publisher}{address}
+incollection	{author} {year}{title}{subtitle}{userb}{usera}. In: {editor}{booktitle}{publisher}{address} {pages}
+inproceedings	{author} {year}{title}{subtitle}{userb}{usera}. In: {booktitle}{organization} {pages}
+misc	{author} {year}{title}{subtitle}{userb}{usera}. {howpublished}
+thesis	{author} {year}{title}{subtitle}{userb}{usera}. {thesis_type}. {institution}: {address}.
+report	{author} {year}{title}{subtitle}{userb}{usera}. {report_type}. {institution}: {address}.
+mvbook	{author} {year}{title}{subtitle}{userb}{usera}. {publisher}{address}
+collection	{editor} {year}{booktitle}{subtitle}{userb}{usera}. {publisher}{address}.

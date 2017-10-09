@@ -2,7 +2,7 @@ from lib.bibtex import BibTex
 import json
 from collections import defaultdict
 
-bib = BibTex('data/SeGePaed_v2.bib', jfile='data/journals.csv', tfile='data/templates')
+bib = BibTex('data/SeGePae.bib', jfile='data/journals.csv', tfile='data/templates')
 jsn = {}
 html = ''
 def write_bibtex(entry):
@@ -18,7 +18,7 @@ def write_bibtex(entry):
     return out
 
 csv = {}
-with open('data/SeGePaed_v2.csv') as f:
+with open('data/SeGePae.csv') as f:
     for line in f:
         tmp = line.split('\t')
         key = tmp[3]
@@ -34,12 +34,17 @@ for key in bib:
     jsn[key]['data'] = bib[key]
     jsn[key]['year'] = bib[key]['year']
     jsn[key]['category'] = csv[key]
-    keywords_, keywords = bib[key]['keyword'].split(' // '), []
+    keywords_, keywords, keywordsen = bib[key]['keyword'].split(';'), [], []
     for k in keywords_:
-        keywords += [h.strip() for h in k.split(';')]
+        if ' // ' in k:
+            keywords += [k.split(' // ')[0]]
+            keywordsen += [k.split(' // ')[1]]
+        else:
+            keywords += [k]
     
     jsn[key]['keyword'] = sorted(set(keywords))
-    for k in keywords:
+    jsn[key]['keywords_en'] = sorted(set(keywords))
+    for k in keywords_:
         all_keywords[k] += 1
     jsn[key]['freetext'] = ' '.join(list(bib[key].values())).lower()
     jsn[key]['html'] = bib.format(key, template='html')
@@ -54,6 +59,10 @@ with open('website/data.js', 'w') as f:
     f.write('var KAT = '+json.dumps(csv, indent=2)+';\n')
 
 with open('data/keywords.tsv', 'w') as f:
-    f.write('Keyword\tOccurrence\n')
+    f.write('KeywordDE\tKeywordEN\tOccurrence\n')
     for k, fr in sorted(all_keywords.items(), key=lambda x: x[1], reverse=True):
-        f.write(k+'\t'+str(fr)+'\n')
+        if ' // ' in k:
+            kd, ke = k.split(' // ')
+        else:
+            kd, ke = k, ''
+        f.write(kd+'\t'+ke+'\t'+str(fr)+'\n')
