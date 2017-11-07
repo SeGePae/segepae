@@ -6,7 +6,8 @@ Die Datenbank enthält derzeit über 900 englischsprachige Einträge - Zeitschri
 - "keywords" filtert nach Schlagwörtern
 - "categories" zeigt alle Einträge einer Kategorie
 - "author" ermöglicht die Suche nach einzelnen Autor_innen
-- "year" erlaubt eine Zuordnung zu den einzelnen Jahren (2010 bis 2017). Die einzelnen Felder verfügen über eine Autovervollständigung, die bei mindestens zwei eingegebenen Buchstaben oder Ziffern aktiviert wird. (STIMMT DAS??)
+- "year" erlaubt eine Zuordnung zu den einzelnen Jahren (2010 bis 2017). 
+Die einzelnen Felder verfügen über eine Autovervollständigung, die bei mindestens zwei eingegebenen Buchstaben oder Ziffern aktiviert wird. (STIMMT DAS??)
 
 Zu den einzelnen Einträge erscheinen die ersten vier Schlagwörter (weiße Felder), die Kategorien (blaues Feld), der Bibtex-Code (grünes Feld) sowie ggf. die DOI (schwarzes Feld). Bei Klicken auf diese Felder werden weitere Informationen sichtbar:
 - Schlagwörter: die Kookkurenzen, also welche Schlagwörter mit dem ausgewählten häufig gemeinsam auftreten
