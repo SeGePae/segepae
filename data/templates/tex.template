@@ -1,0 +1,9 @@
+article	{author} {year}{title}{subtitle}{userb}{usera}. {journal}{volume}{number} {pages}
+report	{author} {year}{title}{subtitle}{userb}{usera}. {report_type}. {institution}: {address}.
+book	{author} {year}{title}{subtitle}{userb}{usera}. {publisher}{address}
+incollection	{author} {year}{title}{subtitle}{userb}{usera}. In: {editor_with_suffix}: {booktitle}. {publisher}{address} {pages}
+inproceedings	{author} {year}{title}{subtitle}{userb}{usera}. In: {booktitle}. {organization} {pages}
+misc	{author} {year}{title}{subtitle}{userb}{usera}. {howpublished}.
+customa	{author} {year}{title}{subtitle}{userb}{usera}. {howpublished} {eventtitle} ({eventdate}, {venue}{organization}).
+lecture	{author} {year}{title}{subtitle}{usera}. {institution}: {organization}.
+thesis	{author} {year}{title}{subtitle}{usera}. {thesis_type}. {institution}.

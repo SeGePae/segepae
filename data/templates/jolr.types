@@ -1,0 +1,38 @@
+address	{address}
+author	<span style="font-variant:small-caps">{author_str_jolr}</span>
+booktitle	<em>{booktitle}</em>
+citeauthor	{author_cite_amp} {year}
+date	{year}
+editor	{editor_str_jolr}
+editor_suffix	{editor_suffix}
+editor_with_suffix	<span style="font-variant:small-caps">{editor_str_jolr}</span>
+eventdate	{eventdate}
+eventtitle	&quot;{eventtitle}&quot;
+howpublished	 {howpublished}
+identifier	{identifier}
+institution	{institution}
+origyear	{origyear}
+items	{items}
+journal	<em>{journal}</em> 
+note	{note}
+number	.{number}
+organisation	{organisation}
+organization	{organization}
+organization_for_talk	, {organization}
+pages	pp. {pages}.
+publisher	{publisher}
+reference	{reference}
+source_language	{source_language}
+source_url	{source_url}
+subtitle	. {subtitle}
+target_language	{target_language}
+term	{term}
+thesis_type	{thesis_type}
+title	{title}
+url	 {eprinttype}: <a href="{eprint}">{eprint}</a>.
+usera	 [{usera}]
+userb	 {userb}
+userc	[{userc}].
+venue	{venue}
+volume	{volume}
+year	{year} 

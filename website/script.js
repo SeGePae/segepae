@@ -1,3 +1,5 @@
+/* stores the keywords */
+var ENTRIES = {};
 
 function filter(what) {
   var filters = ['freetext', 'author', 'keyword', 'year'];
@@ -6,7 +8,7 @@ function filter(what) {
   for (var i=0,filter; filter = filters[i]; i++) {
     var val = document.getElementById(filter).value;
     if (val.length > 1) {
-      active_filters[filter] = val.toLowerCase();
+      active_filters[filter] = val;
     }
   }
   if (Object.keys(active_filters).length == 0) {
@@ -21,16 +23,28 @@ function filter(what) {
     var check = true;
     for (filter in active_filters) {
       if (filter in BIB[key] && typeof BIB[key][filter] == 'string'){
-        if (BIB[key][filter].toLowerCase().indexOf(active_filters[filter]) == -1) {
+        if (BIB[key][filter].toLowerCase().indexOf(active_filters[filter].toLowerCase()) == -1) {
           check = false;
           break;
         }
       }
       else if (filter == 'keyword') {
+        ENTRIES[key] = [];
         var tmp_check = false;
+        var keywords = active_filters['keyword'].split(',');
+        keywords = keywords.slice(0, keywords.length-1);
+        var bibkeywords = [];
         for (var k=0,keyword; keyword=BIB[key]['keyword'][k]; k++) {
-          if (keyword.toLowerCase().indexOf(active_filters['keyword']) != -1) {
+          bibkeywords.push(keyword.toLowerCase());
+        }
+        for (var k=0,keyword; keyword=keywords[k]; k++) {
+          var tmp_check = false;
+          if (bibkeywords.indexOf(keyword.toLowerCase().trim()) != -1) {
             tmp_check = true;
+            ENTRIES[key].push(keyword);
+          }
+          else {
+            tmp_check = false;
             break;
           }
         }
@@ -52,6 +66,12 @@ function filter(what) {
   showentries();
 }
 
+function showCat(category) {
+  BIB['ACTIVE'] = KAT[category];
+  showentries();
+
+}
+
 function fakeAlert(text){
   var falert = document.createElement('div');
   falert.id = 'fake';
@@ -65,7 +85,7 @@ function fakeAlert(text){
 }
 
 function showBibTex(key){
-  fakeAlert('<code style="text-align:justify">'+BIB[key]['bibtex']+'</code>');
+  fakeAlert('<div style="text-align:justify;"><h4>BibTex Entry</h4><pre>'+BIB[key]['bibtex']+'</pre></div>');
 }
 
 function showCategories(key){
@@ -90,6 +110,47 @@ function showCategories(key){
   fakeAlert('<div style="text-align:justify"><h4>Kategorien</h4>'+text+stack+'</div>');
 }
 
+function showAbstract(key){
+  var text = BIB[key]['abstract'];
+  fakeAlert('<div style="text-align:justify"><h4>Abstract</h4>'+text+'</div>');
+}
+function showKeywords(key){
+  if (key in COOC) {
+    var neighbors = Object.keys(COOC[key]);
+  }
+  else {
+    var neighbors = [];
+  }
+  var text = '<ul>';
+  var freq = KW[key];
+  var english = TRAN[key];
+  neighbors.sort(function(x,y) {
+    if(COOC[key][x].length < COOC[key][y].length){return 1;}
+    else if(COOC[key][x].length > COOC[key][y].length){return -1;}
+    else {return 0;}
+  });
+  for (var i=0,neighbor; neighbor=neighbors[i]; i++) {
+    if (neighbor in TRAN) {
+      var english = ' (<em>'+TRAN[neighbor]+'</em>, ';
+    }
+    else {
+      var english = ' (';
+    }
+    if (COOC[key][neighbor].length == 1) {
+      var kook = ' Kookkurrenz';
+    }
+    else {
+      var kook = ' Kookkurrenzen';
+    }
+    text += '<li>'+neighbor+english+COOC[key][neighbor].length+kook+')</li>';
+    if (i > 9) {
+      break;
+    }
+  }
+  text += '</ul>';
+  fakeAlert('<div style="text-align:justify"><h4>Häufig mit «'+key+'» zusammen verwendete Schlagwörter:</h4>'+text+'</div>');
+}
+
 function showentries() {
   var out = '';
   if (BIB['ACTIVE'].length > 0) {
@@ -104,16 +165,34 @@ function showentries() {
       out += '<li class="paper bibentry">'+BIB[entry]['html'];
       out += '<p class="resources" style="display:flex;justify-content:space-between;" >';
       out += '<span class="keywords">';
+      var kw = 0;
+      var visited = [];
+      if (entry in ENTRIES) {
+        for (var k=0,keyword; keyword=ENTRIES[entry][k]; k++){
+          out += ' <a class="resource keyword" onclick="showKeywords(\''+keyword+'\');">'+keyword+'</a>';
+          kw += 1;
+          visited.push(keyword);
+        }
+      }
       for (var k=0,keyword; keyword=BIB[entry]['keyword'][k]; k++) {
-        if (k < 4) {
-          out += ' <a class="resource keyword">'+keyword+'</a>';
+        if (k+kw < 6 && visited.indexOf(keyword) == -1) {
+          out += ' <a class="resource keyword" onclick="showKeywords(\''+keyword+'\');">'+keyword+'</a>';
         }
       }
       out +='</span>';
       out += '<span class="tags">';
-      out += '<a class="bibid resource">ID: '+entry+'</a> ' + 
+      var abs = '';
+      if (typeof BIB[entry]['abstract'] != 'undefined') {
+        abs = '<a class="abstract resource" onclick="showAbstract(\''+entry+'\');">ABSTRACT</a> ';
+      }
+
+      out += '<a class="bibid resource">ID: '+entry+'</a> ' + abs + 
         '<a class="bibtex resource" onclick="showBibTex(\''+entry+'\')">BIBTEX</a> ' +
         '<a class="category resource" onclick="showCategories(\''+entry+'\')">KATEGORIEN</a> ';
+      if ('isbn' in BIB[entry]['data']) {
+        out += '<a target="_blank" href="https://www.worldcat.org/search?q=bn%3A'+BIB[entry]['data']['isbn']+'" class="doi resource">ISBN</a>';
+
+      }
       if ('doi' in BIB[entry]['data']) {
         out += '<a target="_blank" href="http://dx.doi.org/'+BIB[entry]['data']['doi']+'" class="doi resource">DOI</a>';
       }
@@ -124,3 +203,57 @@ function showentries() {
 }
 
 
+$( function() {
+  var availableTags = Object.keys(KW);
+  function split( val ) {
+    return val.split( /,\s*/ );
+  }
+  function extractLast( term ) {
+    return split( term ).pop();
+  }
+
+  $( "#keyword" )
+    // don't navigate away from the field on tab when selecting an item
+    .on( "keydown", function( event ) {
+      if ( event.keyCode === $.ui.keyCode.TAB &&
+          $( this ).autocomplete( "instance" ).menu.active ) {
+        event.preventDefault();
+      }
+    })
+    .autocomplete({
+      minLength: 0,
+      source: function( request, response ) {
+        // delegate back to autocomplete, but extract the last term
+        response( $.ui.autocomplete.filter(
+          availableTags, extractLast( request.term ) ) );
+      },
+      focus: function() {
+        // prevent value inserted on focus
+        return false;
+      },
+      select: function( event, ui ) {
+        var terms = split( this.value );
+        // remove the current input
+        terms.pop();
+        // add the selected item
+        terms.push( ui.item.value );
+        // add placeholder to get the comma-and-space at the end
+        terms.push( "" );
+        this.value = terms.join( ", " );
+        filter('keyword');
+        return false;
+      }
+    });
+} );
+
+var url = window.location.href;
+if (url.indexOf('?') != -1) {
+  var params = url.split('?')[1];
+  if (params == 'headless'){
+    $('h1.main').toggle();
+    document.getElementById('content').style.backgroundColor="white";
+    $('body')[0].style.backgroundColor="white";
+    $('.footer').toggle();
+    
+  }
+}

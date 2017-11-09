@@ -1,0 +1,26 @@
+journal	\textit{{{journal}}} 
+report_type	{report_type}
+title	\textbf{{{title}}}
+subtitle	\textbf{{. {subtitle}}}
+year	({year}): 
+publisher	{publisher}: 
+usera	\ [{usera}]
+userb	\ {{\hana {userb}}}
+pages	{pages}.
+author	{author_str}
+volume	{volume}.
+number	{number}.
+address	{address}.
+booktitle	\textit{{{booktitle}}}
+venue	{venue}
+eventdate	{eventdate}
+eventtitle	``{eventtitle}";
+editor	{editor_str}
+organization	{organization}.
+howpublished	{howpublished}
+term	{term}
+institution	{institution}
+organisation	{organisation}
+thesis_type	{thesis_type}
+editor_suffix	{editor_suffix}
+editor_with_suffix	{editor_str} ({editor_suffix})

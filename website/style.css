@@ -1,3 +1,13 @@
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}
+
 .archive {
   border: 1px dotted #550000;
   border-radius: 10px;
@@ -395,11 +405,11 @@ li.paper:nth-child(odd){background: lightgray;}
 .bibentry a.bibtex {
   background-color: DarkGreen;
 }
+.bibentry a.abstract{
+  background-color: DarkOrange;
+}
 .bibentry a.slides {
   background-color: red;
-}
-.bibentry a.abstract {
-  background-color: blue;
 }
 .bibentry a.handout {
   background-color: LightSkyBlue;
@@ -419,7 +429,7 @@ li.paper:nth-child(odd){background: lightgray;}
   position: absolute;
   margin-left: auto;
   margin-right: auto;
-  top:30%;
+  top:10%;
   left:0;
   right:0;
   background-color: LightYellow;
@@ -427,6 +437,7 @@ li.paper:nth-child(odd){background: lightgray;}
   text-align:center;
   min-width:200px;
   max-width:50%;
+  max-height: 80%;
   width: auto;
   float: left;
   border-radius:5px;
@@ -534,5 +545,51 @@ li.paper:nth-child(odd){background: lightgray;}
   .bibentry a.keyword {
     display: none;
   }
+}
+
+
+a.cathy{
+  color: #06c;
+  cursor:pointer;
+}
+a.final {
+  text-decoration: underline;
+  color: #06c;
+  cursor: pointer;
+}
+
+ul.cathy {
+  padding: 0;
+  margin: 0;
+  background: #fff;
+  float: left;
+}
+
+li.cathy {
+  float: left;
+  display: inline;
+  position: relative;
+  width: 200px;
+  list-style: none;
+}
+
+ul.cathy ul.cathy {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background: LightYellow;
+  border: 1px solid CornFlowerBlue;
+  display: none;
+}
+
+ul.cathy ul.cathy ul.cathy {
+  left: 100%;
+  top: 0;
+  background: LightYellow;
+  border: 1px solid CornFlowerBlue;
+}
+
+li.cathy:hover > ul.cathy {
+  display: block;
 }
 

@@ -1,0 +1,9 @@
+article	{citeauthor} — {author}. {title}{subtitle} // {journal}{volume}{number}, {pages}
+book	{citeauthor} — {author}. <em>{title}{subtitle}</em>. {publisher}, {address}.
+reference	{citeauthor} — {author}. <em>{title}{subtitle}</em>. {publisher}, {address}.
+mvbook	{citeauthor} — {author}. <em>{maintitle}{mainsubtitle}</em>. Volume {volume}: <em>{title}{subtitle}</em>. {publisher}, {address}.
+incollection	{citeauthor} — {author}. {title}{subtitle} // <em>{booktitle}</em>. Ed by. {editor_with_suffix}. {publisher}, {address}, {pages}
+inproceedings	{citeauthor} — {author} {year}{title}{subtitle}. In: {booktitle}. {organization}, {pages}
+misc	{citeauthor} — {author} {year}{title}{subtitle}{userb}{usera}. {howpublished}.
+thesis	{citeauthor} — {author} {year}{title}{subtitle} {usera}. {thesis_type}. {institution}.
+online	{citeauthor} — {author}{editor_with_suffix} {year}{title}{subtitle}{userb}{usera}. {howpublished}{url}
