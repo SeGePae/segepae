@@ -75,12 +75,14 @@ function showCat(category) {
 function fakeAlert(text){
   var falert = document.createElement('div');
   falert.id = 'fake';
-  var text = '<div class="message"><p>' + text + '</p>';
-  text += '<span class="btn btn-primary" onclick="' + "$('#fake').remove();" + '")> OK </span></div>';
+  var out = '<div class="message">';
+  out += '<button type="button" onclick="$(\'#fake\').remove();" class="pull-right btn btn-primary close" style="margin-left:5px;opacity:0.75;"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>';
+  out += '<p>' + text + '</p>';
+  out += '<span class="btn btn-primary" onclick="' + "$('#fake').remove();" + '")> OK </span></div>';
   falert.className = 'fake_alert';
 
   document.body.appendChild(falert);
-  falert.innerHTML = text;
+  falert.innerHTML = out;
   document.onkeydown = function(event){$('#fake').remove();};
 }
 
