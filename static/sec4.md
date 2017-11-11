@@ -6,3 +6,4 @@ In Ergänzung zur Online-Version ist diese Bibliographie auch als elektronisches
 
 Falls Sie in Artikeln auf die Bibliographie verweisen wollen, möchten wir Sie bitten, die elektronische Ressource wie oben angegeben zu zitieren.
 
+Der Code in Python und JavaScript, mit dem diese Webseite erstellt wurde, ist ebenfalls online erhältlich, zusammen mit der kompletten Literaturdatenbank in BibTex-Format, so dass Sie die Daten auch direkt in verschiedene Literaturverwaltungsprogramme (Citavi, Zotero, Mendeley) direkt und einfach importieren können. 
