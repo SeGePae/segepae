@@ -18,5 +18,5 @@ Zu den einzelnen Einträge erscheinen die ersten vier Schlagwörter (weiße Feld
 <li style="list-style:bullet;margin-left:8px;"> Bibtex-Code: weitere Informationen zum Eintrag wie bspw. sämtliche weiteren Schlagwörter</li>
 </ol>
 
-Über den Bixtex-Code können die Einträge auch exportiert werden. Hierzu müssen Sie den jeweiligen bibliographischen Eintrag lediglich kopieren und entweder über Ihr Literaturverwaltungsprogramm importieren, oder in Ihre BibTex-Datei schreiben, sofern Sie BibTex zur Literaturverwaltung verwenden. Die komplette BibTex-Datei steht zum Download zusammen mit dieser Web-Applikation zur Verfügung. 
+Über den BibTex-Code können die Einträge auch exportiert werden. Hierzu müssen Sie den jeweiligen bibliographischen Eintrag lediglich kopieren und entweder über Ihr Literaturverwaltungsprogramm importieren, oder in Ihre BibTex-Datei schreiben, sofern Sie BibTex zur Literaturverwaltung verwenden. Die komplette BibTex-Datei steht zum Download zusammen mit dieser Web-Applikation zur Verfügung (sehen Sie dazu im Reiter "Ressourcen" nach).
 
