@@ -1,2 +1,3 @@
-# imobib
-Bibliography ...
+# Sexuelle Gewalt in pädagogischen Kontexten: Eine Bibliographie
+
+Dieses Repository liefert sowohl die Bibliographie in ihrer rohen Form als BibTex-Datei, als auch den Code in Python und JavaScript, den wir verwenden, um die Daten in eine Bibliographie-Applikation zu überführen, die online auf leichte Art untersucht werden kann. Bei Fragen zum Code wenden Sie sich bitte direkt an [Johann-Mattis List](mailto:mattis.list@shh.mpg.de). Bei inhaltlichen Fragen, wenden Sie sich bitte an [Inga-Marie List](mailto:list@paedagogik.uni-kiel.de). Wenn Sie nur die Online-Bibliographie anschauen wollen, können Sie diese entweder direkt [hier](https://segepae.github.io) aufrufen, oder über die Webseite unseres Instituts, die Sie [hier](http://www.forschungsnetzwerk-gegen-sexualisierte-gewalt.de/de) finden.
