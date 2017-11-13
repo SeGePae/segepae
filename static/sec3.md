@@ -31,7 +31,6 @@
 <li class="cathy"><a class="cathy" onclick="showCat('2.2 Einrichtungstypen')">2.2 Einrichtungstypen</a>
 <ul class="cathy">
 <li class="cathy"><a class="cathy final" onclick="showCat('2.2.1 Kindertagesstätte')">2.2.1 Kindertagesstätte</a></li>
-<li class="cathy"><a class="cathy final" onclick="showCat('2.2.10 Justizvollzugsanstalt')">2.2.10 Justizvollzugsanstalt</a></li>
 <li class="cathy"><a class="cathy final" onclick="showCat('2.2.2 Grundschule')">2.2.2 Grundschule</a></li>
 <li class="cathy"><a class="cathy" onclick="showCat('2.2.3 Weiterführende Schule')">2.2.3 Weiterführende Schule</a>
 <ul class="cathy">
@@ -50,6 +49,7 @@
 <li class="cathy"><a class="cathy final" onclick="showCat('2.2.7 Kinder- und Jugendhilfe')">2.2.7 Kinder- und Jugendhilfe</a></li>
 <li class="cathy"><a class="cathy final" onclick="showCat('2.2.8 Offene Kinder- und Jugendarbeit')">2.2.8 Offene Kinder- und Jugendarbeit</a></li>
 <li class="cathy"><a class="cathy final" onclick="showCat('2.2.9 Kirche')">2.2.9 Kirche</a></li>
+<li class="cathy"><a class="cathy final" onclick="showCat('2.2.10 Justizvollzugsanstalt')">2.2.10 Justizvollzugsanstalt</a></li>
 </ul>
 </li>
 </ul>
@@ -77,12 +77,12 @@
 </li>
 <li class="cathy"><a class="cathy" onclick="showCat('6 Gewalt')">6 Gewalt</a>
 <ul class="cathy">
-<li class="cathy"><a class="cathy" onclick="showCat('6.1 Täter*in')">6.1 Täter*in</a></li>
+<li class="cathy"><a class="cathy" onclick="showCat('6.1 Täter*in')">6.1 Täter*in</a>
 <ul class="cathy">
 <li class="cathy"><a class="cathy final" onclick="showCat('6.1.1 Peer')">6.1.1 Peer</a></li>
 <li class="cathy"><a class="cathy final" onclick="showCat('6.1.2 Erwachsene')">6.1.2 Erwachsene</a></li>
 </ul>
-<li class="cathy"><a class="cathy" onclick="showCat('6.2 Art')">6.2 Art</a></li>
+<li class="cathy"><a class="cathy" onclick="showCat('6.2 Art')">6.2 Art</a>
 <ul class="cathy">
 <li class="cathy"><a class="cathy final" onclick="showCat('6.2.1 Belästigung')">6.2.1 Belästigung</a></li>
 <li class="cathy"><a class="cathy final" onclick="showCat('6.2.2 Missbrauch')">6.2.2 Missbrauch</a></li>
@@ -116,9 +116,9 @@
 </li>
 </ul>
 </nav>
-<input type="text" class="form-control textfield" style="width:140px;display:inline" onkeyup="filter('freetext');" id="freetext" placeholder="freien Text filtern" />
-<input type="text" class="form-control textfield" style="width:140px;display:inline" id="keyword" placeholder="nach Schlagwörtern filtern" />
-<input type="text" class="form-control textfield" style="width:140px;display:inline" onkeyup="filter('author');" id="author" placeholder="nach Autor_innen filtern" />
-<input type="text" class="form-control textfield" style="width:140px;display:inline" onkeyup="filter('year');" id="year" placeholder="nach Jahr filtern" /></div>
+<input type="text" class="form-control textfield" style="width:160px;display:inline" onkeyup="filter('freetext');" id="freetext" placeholder="Freitext" />
+<input type="text" class="form-control textfield" style="width:160px;display:inline" id="keyword" placeholder="Schlagwörter" />
+<input type="text" class="form-control textfield" style="width:160px;display:inline" onkeyup="filter('author');" id="author" placeholder="Autor_innen" />
+<input type="text" class="form-control textfield" style="width:160px;display:inline" onkeyup="filter('year');" id="year" placeholder="Jahr" /></div>
 
 <div id="bibliography"></div>

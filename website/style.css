@@ -573,6 +573,7 @@ li.cathy {
   position: relative;
   width: 200px;
   list-style: none;
+  text-overflow: ellipsis;
 }
 
 ul.cathy ul.cathy {
