@@ -6,7 +6,7 @@ Für den Inhalt verantwortlich sind:
 
 **Inga Marie List, M.Sc.**
 
-Wissenschaftliche Mitarbeiterin am Institut für Pädagogik (Abteilung Sexualpädagogik mit dem Schwerpunkt Gewaltprävention) der Christian-Albrechts-Universität zu Kiel. Kontakt: list@paedagogik.uni-kiel.de
+Wissenschaftliche Mitarbeiterin am Institut für Pädagogik (Abteilung Sexualpädagogik mit dem Schwerpunkt Gewaltprävention) der Christian-Albrechts-Universität zu Kiel.
 
 **Lina Jenner, M.A.**
 
