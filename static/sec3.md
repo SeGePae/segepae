@@ -11,7 +11,7 @@
 <ul class="cathy">
 <li class="cathy"><a class="cathy final" onclick="showCat('1.1 Policies')">1.1 Policies</a></li>
 <li class="cathy"><a class="cathy final" onclick="showCat('1.2 Diskurse')">1.2 Diskurse</a></li>
-<li class="cathy"><a class="cathy final" onclick="showCat('1.3 Medien und Technologie')">1.3 Medien und Technologie</a></li>
+<li class="cathy"><a class="cathy final" onclick="showCat('1.3 Medien/Technologie')">1.3 Medien/Technologie</a></li>
 <li class="cathy"><a class="cathy" onclick="showCat('1.4 Identitäten')">1.4 Identitäten</a>
 <ul class="cathy">
 <li class="cathy"><a class="cathy final" onclick="showCat('1.4.1 Gender')">1.4.1 Gender</a></li>
@@ -47,7 +47,7 @@
 <li class="cathy"><a class="cathy final" onclick="showCat('2.2.5 Hochschule')">2.2.5 Hochschule</a></li>
 <li class="cathy"><a class="cathy final" onclick="showCat('2.2.6 Jugendamt')">2.2.6 Jugendamt</a></li>
 <li class="cathy"><a class="cathy final" onclick="showCat('2.2.7 Kinder- und Jugendhilfe')">2.2.7 Kinder- und Jugendhilfe</a></li>
-<li class="cathy"><a class="cathy final" onclick="showCat('2.2.8 Offene Kinder- und Jugendarbeit')">2.2.8 Offene Kinder- und Jugendarbeit</a></li>
+<li class="cathy"><a class="cathy final" onclick="showCat('2.2.8 Offene Jugendarbeit')">2.2.8 Offene Jugendarbeit</a></li>
 <li class="cathy"><a class="cathy final" onclick="showCat('2.2.9 Kirche')">2.2.9 Kirche</a></li>
 <li class="cathy"><a class="cathy final" onclick="showCat('2.2.10 Justizvollzugsanstalt')">2.2.10 Justizvollzugsanstalt</a></li>
 </ul>
@@ -57,7 +57,7 @@
 <li class="cathy"><a class="cathy" onclick="showCat('3 Fokus')">3 Fokus</a>
 <ul class="cathy">
 <li class="cathy"><a class="cathy" onclick="showCat('3.1 Sexualpädagogik')">3.1 Sexualpädagogik</a></li>
-<li class="cathy"><a class="cathy" onclick="showCat('3.2 Kinderschutz und Gewaltprävention')">3.2 Kinderschutz und Gewaltprävention</a></li>
+<li class="cathy"><a class="cathy" onclick="showCat('3.2 Gewaltprävention')">3.2 Gewaltprävention</a></li>
 </ul>
 </li>
 <li class="cathy"><a class="cathy" onclick="showCat('4 Fachkräfte')">4 Fachkräfte</a>
@@ -72,7 +72,7 @@
 <ul class="cathy">
 <li class="cathy"><a class="cathy final" onclick="showCat('5.1 Kinder')">5.1 Kinder</a></li>
 <li class="cathy"><a class="cathy final" onclick="showCat('5.2 Jugendliche')">5.2 Jugendliche</a></li>
-<li class="cathy"><a class="cathy final" onclick="showCat('5.3 Eltern und Familie')">5.3 Eltern und Familie</a></li>
+<li class="cathy"><a class="cathy final" onclick="showCat('5.3 Eltern/Familie')">5.3 Eltern/Familie</a></li>
 </ul>
 </li>
 <li class="cathy"><a class="cathy" onclick="showCat('6 Gewalt')">6 Gewalt</a>
