@@ -8,9 +8,13 @@ Für den Inhalt verantwortlich sind:
 
 Wissenschaftliche Mitarbeiterin am Institut für Pädagogik (Abteilung Sexualpädagogik mit dem Schwerpunkt Gewaltprävention) der Christian-Albrechts-Universität zu Kiel.
 
-**Lina Jenner, M.A.**
+** Runa Marlen, B.A.**
 
 Wissenschaftliche Hilfskraft am Institut für Pädagogik (Abteilung Sexualpädagogik mit dem Schwerpunkt Gewaltprävention) der Christian-Albrechts-Universität zu Kiel.
+
+**Lina Jenner, M.A.**
+
+Ehemalige wissenschaftliche Hilfskraft am Institut für Pädagogik (Abteilung Sexualpädagogik mit dem Schwerpunkt Gewaltprävention) der Christian-Albrechts-Universität zu Kiel.
 
 **Prof.'in Dr. Anja Henningsen (Projektleitung)**
 
