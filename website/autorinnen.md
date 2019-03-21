@@ -9,7 +9,7 @@ Wissenschaftliche Mitarbeiterin am Institut für Pädagogik (Abteilung Sexualpä
 list@paedagogik.uni-kiel.de
 * Runa Marlen Lück, B.A.
 Wissenschaftliche Hilfskraft am Institut für Pädagogik (Abteilung Sexualpädagogik mit dem Schwerpunkt Gewaltprävention) der Christian-Albrechts-Universität zu Kiel
-*Lina Jenner, M.A.
+* Lina Jenner, M.A.
 ehemalige wissenschaftliche Hilfskraft am Institut für Pädagogik (Abteilung Sexualpädagogik mit dem Schwerpunkt Gewaltprävention) der Christian-Albrechts-Universität zu Kiel
 * Prof.'in Dr. Anja Henningsen (Projektleitung)
 Juniorprofessorin der Sexualpädagogik mit dem Schwerpunkt Gewaltprävention an der Christian-Albrechts-Universität zu Kiel
