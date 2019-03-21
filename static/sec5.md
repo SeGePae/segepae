@@ -8,7 +8,7 @@ Für den Inhalt verantwortlich sind:
 
 Wissenschaftliche Mitarbeiterin am Institut für Pädagogik (Abteilung Sexualpädagogik mit dem Schwerpunkt Gewaltprävention) der Christian-Albrechts-Universität zu Kiel.
 
-** Runa Marlen, B.A.**
+**Runa Marlen, B.A.**
 
 Wissenschaftliche Hilfskraft am Institut für Pädagogik (Abteilung Sexualpädagogik mit dem Schwerpunkt Gewaltprävention) der Christian-Albrechts-Universität zu Kiel.
 
