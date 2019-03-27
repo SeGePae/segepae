@@ -18,4 +18,4 @@ Ehemalige wissenschaftliche Hilfskraft am Institut für Pädagogik (Abteilung Se
 
 **Prof.'in Dr. Anja Henningsen (Projektleitung)**
 
-Juniorprofessorin der Sexualpädagogik mit dem Schwerpunkt Gewaltprävention an der Christian-Albrechts-Universität zu Kiel.
+Professorin der Sozialen Arbeit mit dem Schwerpunkt Geschlechterkompetenz/Diversität an der Fachhochschule Kiel.
