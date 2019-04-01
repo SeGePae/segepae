@@ -31,10 +31,11 @@ _kw = {'en': {}, 'de': {}}
 with open('data/keywords.tsv') as f:
     for line in f:
         tmp = line.split('\t')
-        if line[3].strip():
-            _kw['de'][line[0].strip()] = line[3].strip()
-        if line[4].strip():
-            _kw['en'][line[1].strip()] = line[4].strip()
+        if tmp[3].strip():
+            _kw['de'][tmp[0].strip()] = tmp[3].strip()
+
+        if tmp[4].strip():
+            _kw['en'][tmp[1].strip()] = tmp[4].strip()
 
 #all_keywords = defaultdict(int)
 translator = {}
@@ -64,7 +65,7 @@ for key in bib:
             csv[cat] = [key]
         
 
-    keywords_, keywords, keywordsen = bib[key]['keyword'].split(';'), [], []
+    keywords_, keywords, keywordsen = bib[key]['keywords'].split(';'), [], []
     for k in keywords_:
         if ' // ' in k:
             keywords += [k.split(' // ')[0]]
