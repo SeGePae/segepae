@@ -2,9 +2,13 @@
 
 In Ergänzung zur Online-Version ist diese Bibliographie auch als elektronisches Dokument verfügbar:
 
-<p style="background-color:LightYellow;padding:10px;border-radius:25px;">List, Inga Marie; Jenner, Lina; Henningsen, Anja (2017): <b>Monitoring zum englischsprachigen Forschungsstand "Sexuelle Gewalt in pädagogischen Kontexten".</b> Bibliographie, Nummer 1. DOI: <a href="http://doi.org/10.5281/zenodo.827144">10.5281/zenodo.827144</a>. Kiel: Christian-Albrechts-Universität.</p>
+<p style="background-color:LightYellow;padding:10px;border-radius:25px;">List, Inga Marie; Jenner, Lina; Lück, Runa Marlen; Henningsen, Anja (2019): <b>Monitoring zum englischsprachigen Forschungsstand "Sexuelle Gewalt in pädagogischen Kontexten".</b> Bibliographie, Nummer 2. DOI: <a href="http://doi.org/10.5281/zenodo.2613840">10.5281/zenodo.2613840</a>. Kiel: Christian-Albrechts-Universität.</p>
 
 Falls Sie in Artikeln auf die Bibliographie verweisen wollen, möchten wir Sie bitten, die elektronische Ressource wie oben angegeben zu zitieren.
+
+Darüber hinaus wurden beim Bundeskongress Soziale Arbeit 2018 in Bielefeld Forschungsergebnisse zu den pädagogischen Fachkräften und ihrem Umgang mit Sexualität vorgestellt. Den Vortrag können Sie hier herunterladen:
+
+<p style="background-color:LightYellow;padding:10px;border-radius:25px;">List, Inga Marie (2018): <b>Sexualität als Thema von pädagogischen Fachkräften. Schlaglichter aus englischsprachigen Fachdiskursen.</b> Vortrag beim Bundeskongress Soziale Arbeit, 06.09.2018. Bielefeld. DOI: <a href="http://doi.org/10.5281/zenodo.2613847">10.5281/zenodo.2613847</a>.</p>
 
 Der Code in Python und JavaScript, mit dem diese Webseite erstellt wurde, ist ebenfalls online erhältlich, zusammen mit der kompletten Literaturdatenbank in BibTex-Format, so dass Sie die Daten auch direkt in verschiedene Literaturverwaltungsprogramme (Citavi, Zotero, Mendeley) direkt und einfach importieren können.
 

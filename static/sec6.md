@@ -1,6 +1,6 @@
 ### Anleitung zur Navigation
 
-Die Datenbank enthält derzeit über 900 englischsprachige Einträge - Zeitschriftenartikel, Monographien und Aufsätze in Sammelbände - zum Themenfeld "Sexuelle Gewalt in pädagogischen Kontexten" und wird jährlich aktualisiert. Die aktuelle Fassung der gesamten Bibliographie kann unter "Ressourcen" heruntergeladen werden. 
+Die Datenbank enthält derzeit über 1.300 englischsprachige Einträge - Zeitschriftenartikel, Monographien und Aufsätze in Sammelbände - zum Themenfeld "Sexuelle Gewalt in pädagogischen Kontexten" und umfasst den Publikationszeitraum von 2010 bis 2018. Die aktuelle Fassung der gesamten Bibliographie kann unter "Ressourcen" heruntergeladen werden. 
 
 In der Onlinedatenbank kann nach speziellen Einträgen gesucht werden:
 <ol>
