@@ -67,6 +67,9 @@ function filter(what) {
 }
 
 function showCat(category) {
+  if (typeof KAT[category] == 'undefined') {
+    BIB['ACTIVE'] = [];
+  }
   BIB['ACTIVE'] = KAT[category];
   showentries();
 

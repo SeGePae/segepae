@@ -77,7 +77,7 @@
 </li>
 <li class="cathy"><a class="cathy" onclick="showCat('6 Gewalt')">6 Gewalt</a>
 <ul class="cathy">
-<li class="cathy"><a class="cathy" onclick="showCat('6.1 Täter*in')">6.1 Täter*in</a>
+<li class="cathy"><a class="cathy" onclick="showCat('6.1 Täter*in')">6.1 Täter`*`in</a>
 <ul class="cathy">
 <li class="cathy"><a class="cathy final" onclick="showCat('6.1.1 Peer')">6.1.1 Peer</a></li>
 <li class="cathy"><a class="cathy final" onclick="showCat('6.1.2 Erwachsene')">6.1.2 Erwachsene</a></li>
